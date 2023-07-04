@@ -528,8 +528,8 @@ Adafruit_MCP23X17 mcp;  // Create an instance of the Adafruit_MCP23X17 class
 
 /////////////////////////////////////////////
 // MIDI CHANNEL
-byte POT_MIDI_CH = 0;  //* MIDI channel to be used
-byte BUTTON_MIDI_CH = 0;
+byte POT_MIDI_CH = 1;  //* MIDI channel to be used
+byte BUTTON_MIDI_CH = 1;
 byte ENCODER_MIDI_CH = 1;
 
 byte NOTE = 36;      //* Lowest NOTE to be used - if not using custom NOTE NUMBER
