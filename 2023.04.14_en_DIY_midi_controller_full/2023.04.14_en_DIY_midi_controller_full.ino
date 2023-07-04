@@ -532,7 +532,7 @@ byte POT_MIDI_CH = 1;  //* MIDI channel to be used
 byte BUTTON_MIDI_CH = 1;
 byte ENCODER_MIDI_CH = 1;
 
-byte NOTE = 36;      //* Lowest NOTE to be used - if not using custom NOTE NUMBER
+byte NOTE = 31;      //* Lowest NOTE to be used - if not using custom NOTE NUMBER
 byte CC_NUMBER = 1;  //* Lowest MIDI CC to be used - if not using custom CC NUMBER
 
 /////////////////////////////////////////////
