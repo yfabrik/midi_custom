@@ -151,12 +151,12 @@ char bleMIDIDeviceName[] = { "BLE Controller" };  // put here the name you want 
 #ifdef USING_74HC595
 
 // You can choose the latch pin yourself.
-const int ShiftPWM_latchPin = 7;
+const int ShiftPWM_latchPin = 5;
 
 // ** uncomment this part to NOT use the SPI port and change the pin numbers. This is 2.5x slower **
 #define SHIFTPWM_NOSPI
-const int ShiftPWM_dataPin = 14;
-const int ShiftPWM_clockPin = 23;
+const int ShiftPWM_dataPin = 4;
+const int ShiftPWM_clockPin = 6;
 
 
 // If your LED's turn on if the pin is low, set this to true, otherwise set it to false.
@@ -377,12 +377,12 @@ const byte POT_MUX_PIN[N_MUX][16] = {
 //* pins of each pot of each mux in the order you want them to be
 
 { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 },
-{},
-{},
-{},
-{},
-{},
-{},
+{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 },
+{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 },
+{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 },
+{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 },
+{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 },
+{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 },
 {}
 // ...
 };

@@ -181,9 +181,13 @@ void setup() {
   }
   //* Set each X pin as input_pullup (avoid floating behavior)
   pinMode(x1, INPUT_PULLUP);
-  //  pinMode(x2, INPUT_PULLUP);
-  //  pinMode(x3, INPUT_PULLUP);
-
+  pinMode(x2, INPUT_PULLUP);
+  pinMode(x3, INPUT_PULLUP);
+  pinMode(x4, INPUT_PULLUP);
+  pinMode(x5, INPUT_PULLUP);
+  pinMode(x6, INPUT_PULLUP);
+  pinMode(x7, INPUT_PULLUP);
+  pinMode(x8, INPUT_PULLUP);
 #endif
 
   /////////////////////////////////////////////
