@@ -16,3 +16,13 @@ changé [CShiftPWM.cpp](libraries/ShiftPWM/CShiftPWM.cpp)
  42         }
  43 }   
  ```
+
+
+changé [2023.04.14_en_DIY_midi_controller_full.ino](2023.04.14_en_DIY_midi_controller_full/2023.04.14_en_DIY_midi_controller_full.ino)
+```
+531 byte POT_MIDI_CH = 1;  //* MIDI channel to be used
+532 byte BUTTON_MIDI_CH = 1;
+533 byte ENCODER_MIDI_CH = 1;
+
+535 byte NOTE = 31;      //* Lowest NOTE to be used - if not using custom NOTE NUMBER
+```
