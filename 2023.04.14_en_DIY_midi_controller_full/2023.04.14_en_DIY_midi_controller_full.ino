@@ -390,7 +390,7 @@ const byte POT_MUX_PIN[N_MUX][16] = {
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-#define USING_CUSTOM_CC_N 1  //* comment if not using CUSTOM CC NUMBERS, uncomment if using it.
+//#define USING_CUSTOM_CC_N 1  //* comment if not using CUSTOM CC NUMBERS, uncomment if using it.
 #ifdef USING_CUSTOM_CC_N
 
 // What type of message do you want to send?
