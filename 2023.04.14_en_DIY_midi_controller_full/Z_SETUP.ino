@@ -161,7 +161,7 @@ void setup() {
   //  }
 
   for (int i = 0; i < N_POTS; i++) {
-    responsivePot[i] = ResponsiveAnalogRead(0, true, snapMultiplier);
+    responsivePot[i].begin(0, true, snapMultiplier);
     responsivePot[i].setAnalogResolution(potMax + 1);  // sets the resolution
   }
 
