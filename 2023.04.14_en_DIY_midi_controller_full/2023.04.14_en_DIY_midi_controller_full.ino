@@ -391,7 +391,7 @@ const byte POT_MUX_PIN[N_MUX][16] = {
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 //#define USING_CUSTOM_CC_N 1  //* comment if not using CUSTOM CC NUMBERS, uncomment if using it.
-#ifdef USING_CUSTOM_CC_N
+//#ifdef USING_CUSTOM_CC_N
 
 // What type of message do you want to send?
 // Control Change - Pitch Bend
@@ -405,7 +405,7 @@ byte MESSAGE_TYPE_POT[N_POTS] = { CC, PBB };
 
 byte POT_CC_N[N_POTS] = { 1, 2 };  // Add the CC NUMBER or MACKIE of each pot you want
 
-#endif
+//#endif
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
